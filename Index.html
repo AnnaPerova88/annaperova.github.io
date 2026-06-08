@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Perova | AI-HR Architect</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0a1a;color:#e0e0e0;line-height:1.6}
+        .container{max-width:1000px;margin:0 auto;padding:0 24px}
+        
+        header{padding:20px 0;border-bottom:1px solid #1a1a2e}
+        .logo{font-size:1.2rem;font-weight:700;color:#fff}
+        .logo span{color:#6366f1}
+        
+        .hero{padding:100px 0 60px;text-align:center}
+        .badge{display:inline-block;padding:6px 16px;background:rgba(99,102,241,0.1);color:#6366f1;border-radius:50px;font-size:.85rem;margin-bottom:20px;border:1px solid rgba(99,102,241,0.3)}
+        .hero h1{font-size:clamp(2rem,4vw,3.5rem);font-weight:800;color:#fff;margin-bottom:16px}
+        .hero h1 span{color:#6366f1}
+        .hero p{color:#a0a0b0;font-size:1.1rem;max-width:600px;margin:0 auto 30px}
+        
+        .stats{display:flex;justify-content:center;gap:40px;margin:40px 0;flex-wrap:wrap}
+        .stat{text-align:center}
+        .stat-num{font-size:2rem;font-weight:800;color:#6366f1}
+        .stat-label{font-size:.85rem;color:#a0a0b0}
+        
+        .btn{display:inline-block;padding:14px 32px;background:#6366f1;color:#fff;text-decoration:none;border-radius:12px;font-weight:600;transition:all .3s}
+        .btn:hover{background:#5558e0;transform:translateY(-2px)}
+        .btn-outline{display:inline-block;padding:14px 32px;background:transparent;color:#a0a0b0;text-decoration:none;border-radius:12px;border:1px solid #2a2a3e;margin-left:12px;transition:all .3s}
+        .btn-outline:hover{border-color:#6366f1;color:#fff}
+        
+        .trust{padding:30px 0;text-align:center;border-top:1px solid #1a1a2e;border-bottom:1px solid #1a1a2e}
+        .trust p{color:#666;font-size:.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:15px}
+        .trust span{color:#fff;font-weight:700;margin:0 15px;opacity:.6}
+        
+        .section{padding:80px 0}
+        .section h2{text-align:center;font-size:2rem;color:#fff;margin-bottom:40px}
+        
+        .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+        .card{background:#16162a;border:1px solid #1a1a2e;border-radius:16px;padding:32px;transition:all .3s}
+        .card:hover{border-color:#6366f1;transform:translateY(-5px)}
+        .card-icon{font-size:2rem;margin-bottom:12px}
+        .card h3{font-size:1.1rem;color:#fff;margin-bottom:10px}
+        .card p{color:#a0a0b0;font-size:.9rem}
+        
+        .portfolio-item{background:#16162a;border-radius:16px;padding:28px;border:1px solid #1a1a2e;transition:all .3s}
+        .portfolio-item:hover{border-color:#6366f1}
+        .tag{display:inline-block;padding:4px 10px;background:rgba(99,102,241,0.1);color:#6366f1;border-radius:6px;font-size:.8rem;margin-bottom:10px}
+        .portfolio-item h3{font-size:1.1rem;color:#fff;margin-bottom:8px}
+        .portfolio-item p{color:#a0a0b0;font-size:.9rem}
+        
+        .cta{text-align:center;padding:80px 0;background:linear-gradient(135deg,#1a1a2e 0%,#0a0a1a 100%)}
+        .cta h2{font-size:2rem;color:#fff;margin-bottom:16px}
+        .cta p{color:#a0a0b0;margin-bottom:30px}
+        
+        footer{padding:30px 0;text-align:center;border-top:1px solid #1a1a2e;color:#666;font-size:.9rem}
+        .social a{color:#a0a0b0;text-decoration:none;margin:0 10px;transition:color .3s}
+        .social a:hover{color:#6366f1}
+        
+        @media(max-width:768px){.stats{gap:20px}.btn-outline{margin-left:0;margin-top:10px}}
+    </style>
+</head>
+<body>
+
+<<header>
+    <div class="container">
+        <div class="logo">Anna<span>Perova</span>.ai</div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <div class="badge">🚀 AI-HR Architect & Data Engineer</div>
+        <h1>Строю AI для HR,<br>потому что <span>17 лет в HR</span></h1>
+        <p>Samsung AI Center → Huawei → AIRI → МИФИ. AI-решения для найма, удержания и HR-аналитики.</p>
+        <div class="stats">
+            <div class="stat"><div class="stat-num">150+</div><div class="stat-label">Наймов в AI</div></div>
+            <div class="stat"><div class="stat-num">17</div><div class="stat-label">Лет в HR-Tech</div></div>
+            <div class="stat"><div class="stat-num">4</div><div class="stat-label">Лаборатории с 0</div></div>
+            <div class="stat"><div class="stat-num">1000+</div><div class="stat-label">Ladies in Tech</div></div>
+        </div>
+        <a href="#contact" class="btn">Обсудить проект</a>
+        <a href="https://github.com/AnnaPerova88" target="_blank" class="btn-outline">GitHub →</a>
+    </div>
+</section>
+
+<section class="trust">
+    <div class="container">
+        <p>Работала с</p>
+        <span>Samsung AI</span>
+        <span>Huawei</span>
+        <span>AIRI</span>
+        <span>МИФИ</span>
+        <span>Сбер</span>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2>Услуги</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">🤖</div>
+                <h3>AI-скрининг резюме</h3>
+                <p>LLM анализирует резюме на соответствие вакансии. Снижает time-to-hire на 60%.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">📊</div>
+                <h3>HR-аналитика + ML</h3>
+                <p>Предиктивная аналитика: прогноз увольнений, воронка найма, рыночные зарплаты.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">⚡</div>
+                <h3>AI-автоматизация HR</h3>
+                <p>Боты для скрининга, генерация вакансий, автоматические референс-чеки.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🎯</div>
+                <h3>Обучение HR + AI</h3>
+                <p>Тренинги: prompt engineering для HR, чтение ML-резюме, AI-интервью.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="background:#0a0a14">
+    <div class="container">
+        <h2>Кейсы</h2>
+        <div class="grid">
+            <div class="portfolio-item">
+                <span class="tag">NLP + LLM</span>
+                <h3>Анализ 1M+ медрепортов</h3>
+                <p>AIRI: Qwen + reasoning для классификации КТ-репортов лёгких.</p>
+            </div>
+            <div class="portfolio-item">
+                <span class="tag">RAG + LLM</span>
+                <h3>AI-ментор для ML</h3>
+                <p>Сбер Хакатон: чат-бот ментор с источниками книг и статей.</p>
+            </div>
+            <div class="portfolio-item">
+                <span class="tag">HR Tech</span>
+                <h3>Samsung AI Center с 0</h3>
+                <p>4 лаборатории, 150+ человек, экономия 30 млн ₽ на агентствах.</p>
+            </div>
+            <div class="portfolio-item">
+                <span class="tag">CV + Ethics</span>
+                <h3>DiverseFemImages</h3>
+                <p>2500 изображений женщин в STEM. Статья на AAAI 2026.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta" id="contact">
+    <div class="container">
+        <h2>Готовы внедрить AI в HR?</h2>
+        <p>Бесплатный аудит: 30 минут, 3 точки роста, план внедрения.</p>
+        <a href="https://t.me/AnnaPerova" class="btn">Написать в Telegram</a>
+        <a href="mailto:perovaan.hr@gmail.com" class="btn-outline">Email →</a>
+    </div>
+</section>
+
+<<footer>
+    <div class="container">
+        <div class="social">
+            <a href="https://github.com/AnnaPerova88" target="_blank">GitHub</a>
+            <a href="https://www.kaggle.com/mlsputnik" target="_blank">Kaggle</a>
+            <a href="https://www.linkedin.com/in/annaperova/" target="_blank">LinkedIn</a>
+        </div>
+        <p>© 2026 Anna Perova. AI-HR Architect & Data Engineer.</p>
+    </div>
+</footer>
+
+</body>
+</html>
